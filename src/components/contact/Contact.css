@@ -1,0 +1,148 @@
+.contact{
+    background: #252525;
+}
+
+.contact-container {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    column-gap: 6rem;
+    padding-bottom: 3rem;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1-5);
+}
+
+.contact-info {
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: 300px;
+}
+
+.contact-card {
+    background-color: inherit;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 4px #18ADD2;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+.contact-card-icon {
+    font-size: 2rem;
+    color: #18ADD2;
+    margin-bottom: var(--mb-0-25);
+}
+
+.contact-title,
+.contact-data {
+    font-size: var(--small-font-size);
+}
+
+.contact-card-data {
+    display: block;
+    margin-bottom: var(--mb-0-75);
+}
+
+.contact-button {
+    color: var(--text-color);
+    font-size: var(--small-text-size);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.25rem;
+}
+
+.contact-button-icon {
+    font-size: 1rem;
+    transition: 0.3s;
+    color: #18ADD2;
+}
+
+.contact-button:hover,
+.contact-button-icon {
+    transform: translate(00.25rem);
+}
+
+.contact-title {
+    font-weight: var(--font-medium);
+}
+
+.contact-form {
+    width: 360px;
+}
+
+.contact-form-div {
+    position: relative;
+    margin-bottom: var(--mb-2);
+    height: 4rem;
+}
+
+.contact-form-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(24, 173, 210);
+    background: none;
+    color: var(--text-color);
+    outline: none;
+    border-radius: 1.5rem;
+    z-index: 1;
+    padding-left: 1rem;
+}
+
+textarea {
+    padding-top: 1rem;
+    resize: none;
+
+}
+
+.contact-form-area {
+    height: 11rem;
+}
+
+.contact-form-tag {
+    position: absolute;
+    top: -0.75rem;
+    left: 1.25rem;
+    font-size: var(--small-font-size);
+    padding: 0.25rem;
+    background: #252525;
+    z-index: 10;
+}
+
+@media screen and (max-width: 992px) {
+    .contact-container {
+        column-gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+    }
+
+    .contact-info {
+        justify-content: center;
+    }
+
+    .contact-form {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contact-info {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+}
