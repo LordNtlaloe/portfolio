@@ -11,10 +11,16 @@ export default function Footer() {
                         <a href="#about" className="footer-link">About</a>
                     </li>
                     <li>
-                        <a href="#porfolio" className="footer-link">Projects</a>
+                        <a href="#experience" className="footer-link">Experience</a>
                     </li>
                     <li>
                         <a href="#services" className="footer-link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" className="footer-link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" className="footer-link">Contact</a>
                     </li>
                 </ul>
                 <div className="footer-socials">
@@ -32,7 +38,7 @@ export default function Footer() {
                     </a>
                 </div>
                 <span className="footer-copy">
-                    &#169; Teboho Ntlaloe {new Date().getFullYear()}. All Rights Reserved
+                    &#169; <a href="https://teboho-ntlaloe-portfolio.netlify.app/">&nbsp;Teboho Ntlaloe</a>&nbsp;{new Date().getFullYear()}. All Rights Reserved
                 </span>
             </div>
         </footer>

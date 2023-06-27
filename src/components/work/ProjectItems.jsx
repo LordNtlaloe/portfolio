@@ -1,3 +1,4 @@
+import "./work.css";
 export default function ProjectItems({item}){
     return (
         <div className="work-card" key={item.id}>

@@ -10,6 +10,7 @@ import Qualifications from './components/qualifications/Qualifications';
 import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import ScrollUp from './components/scrollUp/ScrollUp';
 
 export default function App() {
     return (
@@ -24,8 +25,9 @@ export default function App() {
                 <Work/>
                 <Testimonials/>
                 <Contact/>
-                <Footer/>
             </main>
+            <Footer/>
+            <ScrollUp/>
         </div>
     );
 };

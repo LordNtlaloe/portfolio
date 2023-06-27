@@ -45,15 +45,16 @@
 
 .qualifications-data {
     display: grid;
-    grid-template-columns: 1fr max-content 1fr;
+    grid-template-columns: 3fr max-content 3fr;
     column-gap: 1.5rem;
 }
 
 .qualifications-title {
+    width: 100%;
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
 }
-
+ 
 .qualifications-subtitle {
     display: inline-block;
     font-size: var(--tiny-font-size);
@@ -64,11 +65,15 @@
     font-size: var(--small-font-size);
 }
 
+.qualifications-calendar i{
+    padding-right: 0.5rem;
+}
+
 .qualifications-rounder {
     display: inline-block;
     width: 13px;
     height: 13px;
-    background-color: var(--text-color);
+    background-color: var(--title-color-dark);
     border-radius: 50%;
 }
 
@@ -76,7 +81,7 @@
     display: block;
     width: 1px;
     height: 100%;
-    background-color: var(--text-color);
+    background-color: var(--title-color-dark);
     transform: translate(6px, -7px);
 }
 

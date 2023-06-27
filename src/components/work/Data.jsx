@@ -9,22 +9,22 @@ export const projectsData = [
     {
         id: 1,
         image: Work1,
-        title: 'Web Design',
+        title: 'New Moon Gym Plus',
         category: 'Website',
         link: 'https://newmoongym.netlify.app/'
     },
     {
         id: 2,
         image: Work2,
-        title: 'Web Design',
+        title: 'Web App',
         category: 'App',
         link: '#'
     },
     {
         id: 3,
         image: Work3,
-        title: 'Web Design',
-        category: 'Design',
+        title: 'Game',
+        category: 'Game',
         link: '#'
     },
     {
@@ -45,22 +45,22 @@ export const projectsData = [
         id: 6,
         image: Work6,
         title: 'Web Design',
-        category: 'Design',
+        category: 'Game',
         link: '#'
     }
 ]
 
 export const projectsNavigation = [
     {
-        name: 'All'
+        title: 'All'
     },
     {
-        name: 'Web'
+        title: 'Website'
     },
     {
-        name: 'App'
+        title: 'App'
     },
     {
-        name: 'Design'
+        title: 'Game'
     },
 ]
